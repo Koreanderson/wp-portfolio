@@ -1,0 +1,10 @@
+/* Body Layout SCSS */
+.row {
+  width: 100%; }
+
+.hero-banner {
+  background: #F1F1F1;
+  min-height: 400px;
+  width: 100%; }
+
+/*# sourceMappingURL=body.css.map */
