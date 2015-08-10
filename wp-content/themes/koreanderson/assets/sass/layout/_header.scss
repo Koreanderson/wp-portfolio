@@ -1,0 +1,59 @@
+/* Header Layout SCSS*/
+body{
+	header{
+		nav.main-navigation{
+			display: none;
+		}
+		.site-branding{
+			font-family: 'Bitter', sans-serif;
+			font-weight: normal;
+			float: left;
+			letter-spacing: .2em;
+			text-align: left;
+			text-transform: uppercase;
+			padding: 20px 15px;
+			@include fadein(1.5s);
+
+			h1.site-title{
+				padding: 0;
+				margin: 0;
+				a{
+					color: $primary-color;
+					text-shadow: 0px 1px 0px #E2E2E2;
+				}
+			}
+			h2{
+				color: $grey;
+				display: inline;
+				font-size: 1.3em;
+				font-weight: normal;
+				letter-spacing: .1em;
+				margin: 5px 0;
+				text-transform: none;
+			}
+		}
+		.contact{
+			float: right;
+			padding: 35px 15px;
+			text-align: right;
+			a.contact-btn{
+				background: transparentize($primary-color, .3);
+				font-family: 'Bitter', sans-serif;
+				color: #FFF;
+				font-size: 1.5em;
+				padding: 10px 15px; 
+				text-transform: uppercase;
+				@include transition(.1s all linear);
+
+				&:hover{
+					background: $primary-color;	
+				}
+			}
+
+		}
+	}
+&.home {
+	header{
+	}
+}
+}

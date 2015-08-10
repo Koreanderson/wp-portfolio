@@ -1,12 +1,17 @@
 /* Koreanderson Stylesheet */
 
 @import 
-	"utils/variables";
+	"components/foundation-grid";
+	/*"components/panels";*/
+
+@import 
+	"utils/variables",
+	"utils/typography",
+	"utils/mixins";
 
 @import 
 	"layout/body",
 	"layout/footer",
 	"layout/header";
-@import 
-	"components/panels";
+
 

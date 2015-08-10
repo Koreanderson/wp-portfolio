@@ -1,0 +1,35 @@
+/* Mixins */
+
+@mixin transition($transitions){
+	transition: $transitions;
+	-moz-transition: $transitions;
+	-webkit-transition: $transitions;
+}
+
+@mixin animation-delay($delay){
+	animation-delay: $delay;
+	-moz-animation-delay: $delay;
+	-webkit-animation-delay: $delay;
+}
+
+/* Animations */
+
+@mixin fadein($fadein){
+	animation: fadein $fadein;
+	-moz-animation: fadein $fadein;
+	-webkit-animation: fadein $fadein;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari, Chrome and Opera > 12.1 */
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

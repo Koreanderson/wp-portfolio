@@ -13,14 +13,17 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
-			<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'koreanderson' ) ); ?>"><?php printf( esc_html__( 'Proudly powered by %s', 'koreanderson' ), 'WordPress' ); ?></a>
-			<span class="sep"> | </span>
-			<?php printf( esc_html__( 'Theme: %1$s by %2$s.', 'koreanderson' ), 'koreanderson', '<a href="http://underscores.me/" rel="designer">Underscores.me</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+
+<!-- Jabbuhscribs -->
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/jquery.touchSwipe.js"></script>
+<script src="<?php echo get_stylesheet_directory_uri(); ?>/assets/js/sao.js"></script>
 
 </body>
 </html>
