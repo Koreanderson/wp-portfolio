@@ -31,7 +31,7 @@
 				<h2><?php bloginfo('description'); ?></h2>
 			</div><!-- .site-branding -->
 			<div class="contact small-12 medium-3 large-3">
-				<a class="contact-btn" href="/contact">Contact Me Yo!</a>
+				<a class="contact-btn" href="/contact">Contact Me</a>
 				<!--<ul class="social">-->
 					<!--<li><a href=""></a></li>-->
 					<!--<li><a href=""></a></li>-->

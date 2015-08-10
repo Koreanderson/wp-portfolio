@@ -19,7 +19,9 @@ body{
 				margin: 0;
 				a{
 					color: $primary-color;
-					text-shadow: 0px 1px 0px #E2E2E2;
+					font-size: 1.1em;
+					text-shadow: -2px 2px 0 transparentize($primary-color, .9);
+					line-height: 2em;
 				}
 			}
 			h2{
@@ -40,8 +42,10 @@ body{
 				background: transparentize($primary-color, .3);
 				font-family: 'Bitter', sans-serif;
 				color: #FFF;
+				display: block;
 				font-size: 1.5em;
-				padding: 10px 15px; 
+				padding: 5px;
+				text-align: center;
 				text-transform: uppercase;
 				@include transition(.1s all linear);
 
